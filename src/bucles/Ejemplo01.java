@@ -8,14 +8,14 @@ public class Ejemplo01 {
         String nombreusuario = "";
         String clave = "";
 
-        while (nombreusuario =="juan" || clave == "12345"){
+        while (!nombreusuario.equals("juan") || !clave.equals("12345")){
             System.out.println("ingrese nombre de usuario");
             nombreusuario = entradaDatos.nextLine();
 
             System.out.println("ingrese su clave");
             clave = entradaDatos.nextLine();
 
-            if (nombreusuario == "juan" || clave == "12345"){
+            if (!nombreusuario.equals("juan") || !clave.equals("12345")){
                 System.out.println("datos incorrectos, no puedes ingresar");
 
             }
