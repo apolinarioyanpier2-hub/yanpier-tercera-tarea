@@ -19,13 +19,20 @@ public class arreglos {
 
         System.out.println(Arrays.toString(numeros));
         // arreglo con inicializacion
-        int[] notas = {10,18,13,15,20,16,18,14};
+        int[] notas = {10,18,13,15,20,16,18,14,15};
 
         System.out.println(Arrays.toString(notas));
 
         //
         String[]verduras = {"apio,lechuga,tomate"};
         System.out.println(Arrays.toString(verduras));
+
+        for (int iterador = 0;iterador <= notas.length; iterador++){
+            System.out.println(notas[iterador]);
+
+        }
+
+
 
 
 
