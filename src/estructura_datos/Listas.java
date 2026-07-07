@@ -20,7 +20,7 @@ public class Listas {
         System.out.println(frutas);
 
         for (int iterador = 0; iterador <= frutas.size(); iterador++) {
-            System.out.println(frutas);
+            System.out.println(frutas.get(iterador));
 
 
         }
